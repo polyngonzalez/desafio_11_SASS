@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+$font-family-base:'Pacifico','monospace';
+
+.miBg-dark-personal{
+    @extend .bg-dark;
+    color:white;
+}
+
+// variales del color //
+$primary: rgb(185, 67, 67);
+$secondary:rgb(159, 202, 58);
+$success: rgb(56, 205, 173);
+$info:rgb(40, 132, 217);
+$warning:rgb(144, 40, 213);
+$danger:rgb(224, 29, 204);
+$light:rgb(231, 237, 144);
+$dark:rgb(49, 53, 74);
+$polyn:rgb(144, 221, 188);
+
+ //themes variable//
+$theme-colors:(
+"primary":      $primary,
+"secondary":    $secondary,
+"success":      $success,
+"info":         $info,
+"warning":      $warning,
+"danger":       $danger,
+"light":        $light,
+"dark":         $dark,
+"polyn":        $polyn
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
